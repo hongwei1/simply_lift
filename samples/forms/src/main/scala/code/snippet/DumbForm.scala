@@ -25,7 +25,7 @@ object DumbForm {
       S.notice("Name: "+name)
       S.notice("Age: "+age)
       S.notice("Ps: "+ps)
-      S.redirectTo("/")
+      S.redirectTo("/") // it will redirect to home page, will not show the following line
     }
 
     // pass through the HTML if we don't get a post and
