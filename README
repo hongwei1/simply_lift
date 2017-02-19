@@ -1,3 +1,10 @@
+Notes to run
+1 java7
+2 sbt version
+3 sometime, sbt - compile- jetty-run
+
+
+
 The repository for Simply Lift, a book that describes the Lift
 Web Framework.
 
