@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1234",
+    "name": "Cat Food",
+    "description": "Yummy, tasty cat food",
+    "price": 4.25,
+    "taxable": true,
+    "weightInGrams": 1000,
+    "qnty": 4
+  },
+  {
+    "id": "1235",
+    "name": "Dog Food",
+    "description": "Yummy, tasty dog food",
+    "price": 7.25,
+    "taxable": true,
+    "weightInGrams": 5000,
+    "qnty": 72
+  },
+  {
+    "id": "1236",
+    "name": "Fish Food",
+    "description": "Yummy, tasty fish food",
+    "price": 2,
+    "taxable": false,
+    "weightInGrams": 200,
+    "qnty": 45
+  },
+  {
+    "id": "1237",
+    "name": "Sloth Food",
+    "description": "Slow, slow sloth food",
+    "price": 18.33,
+    "taxable": true,
+    "weightInGrams": 750,
+    "qnty": 62
+  },
+]
