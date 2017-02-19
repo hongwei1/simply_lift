@@ -17,13 +17,15 @@ object DumbForm {
       r <- S.request if r.post_? // make sure it's a post
       name <- S.param("name") // get the name field
       age <- S.param("age") // get the age field
+      ps <- S.param("pss") // get the age field
     } {
       // if everything goes as expected,
       // display a notice and send the user
       // back to the home page
       S.notice("Name: "+name)
       S.notice("Age: "+age)
-      S.redirectTo("/")
+      S.notice("Ps: "+ps)
+      S.redirectTo("/") // it will redirect to home page, will not show the following line
     }
 
     // pass through the HTML if we don't get a post and
